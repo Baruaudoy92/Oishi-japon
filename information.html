@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About-US</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--header selection start-->
+        <header>
+            <a href="#" class="logo"><img src="img/IMG-0050.PNG"width="28%"></a>
+            
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="menu.html">menu</a>
+                <a href="information.html">about</a>
+                <a href="reservation.html">reservation</a>
+                <a href="horaires.html">Timetable</a>
+                </nav>
+                    </nav>
+            
+                    <div class="icons">
+                    <i class="fas fa-bars" id="menu"></i>
+                    <i class="fas fa-hamburger"></i>
+                    <i class="fas fa-heart"></i>
+                    <i class="fa fa-user"></i>
+                    </div>
+                    </header>
+                    <!--header selection end-->
+
+        <div class="heading">
+            <h1>About Us</h1>
+            <p> Oishi-JAPON</p>
+        </div>
+        <div class="container">
+            <section class="about">
+                <div class="about-img">
+<img src="img/OIP (6).jpg">
+                </div>
+                <div class="about-content">
+                    <h2> Warm embrace of Oishi-FOOD</h2>
+                    <p> “Oishii” and “umai” mean practically the same thing. If you look them up, they have almost exactly the same definition. However, they are used a bit different.
+
+                        “Oishii” is used by pretty much everyone. It’s the most common way to call something delicious. “Umai” is something I hear a lot more from younger people. It also has the meaning of “skilled,” so you’ll hear it in other contexts as well. 
+                        
+                        You can decide which fits your style, or use them both. “Umai” might just sound a little younger. 
+                    “Oishii” is a Japanese i-adjective which means “delicious” or “good-tasting”. It is written in either hiragana as おいしい, or in kanji as 美味しい. </p>
+                    <br>
+                    <p> “Oishii” is a Japanese i-adjective which means “delicious” or “good-tasting”. It is written in either hiragana as おいしい, or in kanji as 美味しい. </p>
+                        <a href="" class="read-more"> Read More</a>
+
+                        <h2 class="contact-lebel">Location</h2>
+            
+               <h2> Restaurant OISHI-JAPON st,Delicious City, Osaka-kyoto 92120 JAPON </h2>
+            </adress>
+
+            <p class="body-4"
+            Monday to Sunday
+             <br>
+             <p> 0148396992 </p>
+            10.00am - 22pm
+            </p>
+                </div>
+            </section>
+        </div>
+        <!--footer-->
+    <footer class="footer-1">
+        <section id="footer" class="logo">
+          <div class="container text-center">
+            <a href="#" class="twitter"></a>
+            <a href="#" class="insta"></a>
+            <a href="#" class="facebook"></a>
+            <a href="#" class="snap"></a>
+            <a href="#" class="whatsapp"></a>
+          </div>
+        </section>
+        <h3>大石 - JAPON</h3>
+    </footer>
+
+        <script type="text/javascript">
+            let menu = document.querySelector('#menu');
+            let navbar = document.querySelector('.navbar');
+
+            menu.onclick = () =>{
+                menu.classlist.toggle('fa-times');
+                navbar.classList.toggle('active')
+            }
+        </script>
+    </body>
+</html>
+    </body>
+</html>
+
+
+
+
+<style>
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root
+{
+    --black: #000000;
+    --light-color:#cdaa7c;
+    --box-shadow: 0. 5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif
+}
+
+/*navbar style start*/
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--black);
+    padding: 1rem 7%;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(img/R.jpg);
+    box-shadow: var(--box-shadow);
+    z-index: 10000;
+}
+header .logo img
+{
+    height: auto;
+}
+header .navbar a 
+{
+    font-size: 1.7rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color);
+    border: .1rem solid transparent;
+}
+header .navbar a.active,
+header .navbar a:hover
+{
+    color: #fff;
+    border: 1rem solid rgba(205,170, 124, 0.2);
+}
+header .icons i
+{
+    cursor: pointer;
+    margin-left: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    background: var(--light-color);
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+}
+header .icons i:hover
+{
+    color: #fff;
+    background: var(--light-color);
+    transform: rotate(360deg);
+}
+header .icons #menu
+{
+    display: none;
+}
+
+/*navbar style end here*/
+
+
+body{
+   background-image: url(img/wp2044278.jpg)
+}
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+.heading h1{
+   font-size: 50px;
+   top: 110px;
+   counter-reset: #000;
+   color: rgb(18, 73, 121);
+   margin-bottom: 25px;
+   position: relative; 
+}
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+.heading p{
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 35px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-img{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+.about-img img{
+    max-width: 100%;
+    border-radius: 200px;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+.about-image:hover img{
+    transform: scale(1.2);
+}
+.about-content{
+    flex: 1;
+}
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+}
+.about-content .read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    color:#145182;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+.about-content .read-more.hover{
+    background-color: #8e3e3e;
+}
+
+
+/*media query*/
+@media (max-width: 991px)
+{
+    html
+    {
+        font-size: 55%;  
+    }
+    header
+    {
+        padding: 1rem 2rem;
+    }
+    header .logo img
+    {
+        height: 7rem;
+    }
+    header .icons #menu
+    {
+        display: inline-block;
+    }
+    header .navbar
+    {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        border-top: 1rem solid rgb(205, 170, 124, 0.2);
+        border-bottom: rgb(205, 170, 124,0.2);
+        padding: 1rem;
+        clip-path: polygon(0 0,100% 0, 0 0);
+    }
+    haeder .navbar.active
+    {
+        clip-path: polygon(0 0,100% 100%, 0 100%);
+    }
+    header .navbar a 
+    {
+        display: block;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        font-size: 2rem;
+        background: var(--black);
+    }
+
+
+@media screen and (max-width: 768px)
+{
+    .heading{
+        padding: 0px 20px;
+}
+.heading h1{
+    font-size: 36px;
+}
+.heading p{
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.container{
+    padding: 0px;
+}
+.about{
+    padding: 20px;
+    flex-direction: column;
+}
+.about img{
+    padding: 0px;
+    font-size: 16px;
+}
+.about-content .read-more{font-size: 16px;}
+}
+
+}
+.footer-1 {
+    position: fixed;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 5.5%;
+    margin-left: 0px;
+    left: 0;
+    bottom: 0;
+    background-image: url(img/IMG-0050.PNG);
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+#footer .twitter {
+  padding: 1px;
+  background-image: url(https://th.bing.com/th/id/OIP.HQ7YC3F9Ti3bzl_efBBIJwHaHa?pid=ImgDet&rs=1);
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+#footer .insta {
+  padding: 1px;
+  background-image: url(https://sguru.org/wp-content/uploads/2018/01/new-instagram-logo-clipart-23-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+#footer .facebook {
+  padding: 1px;
+  background-image: url(https://th.bing.com/th/id/OIP.uycctBQJOtnsht5SI9qD7gAAAA?pid=ImgDet&rs=1); background-repeat: no-repeat;
+  background-size: cover ;
+}
+#footer .snap {
+  padding: 1px;
+  background-image: url(https://th.bing.com/th/id/OIP.PewJxVQ7BcyZAYGwbTgIggHaHw?pid=ImgDet&rs=1);
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+#footer .whatsapp {
+  padding: 1px;
+  background-image: url(https://www.citypng.com/public/uploads/preview/-41601136064v1yaquf4dr.png);
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+#footer a {
+  height: 46px;
+  width: 46px;
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+</style>
